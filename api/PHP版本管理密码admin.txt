@@ -1,0 +1,17 @@
+## 22:18 2023/12/4
+## 适用于PHP5.x 和PHP7.x的web环境
+文件说明:
+channel.php    :数据库管理页面
+channel_epg.db :数据库
+epg.php        :DIYP epg接口
+info.php       :php服务器信息查询页面
+json.php       :json格式频道接口
+live.php       :txt格式频道接口,使用DIYP壳
+xml2db.php     :epg数据获取页面,自动同步xml格式的epg数据存入channel_epg.db
+PHP版本管理密码admin.txt :本文件
+
+使用说明：
+1. PHP版本管理密码admin，请打开channel.php文件，修改访问密码。
+2. 如果channel_epg.db数据库损坏,可以删除后,再浏览器访问一次xml2db.php,进行数据库初始化
+3. 电视安装直播APP：DIYP影音Final版.apk
+
