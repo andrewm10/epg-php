@@ -1,7 +1,7 @@
 <?php
 // 程序查询仅限于当天，自定义xml.gz地址  放合适自己的节目源就行，全部往里面加载会卡死。
 $urlxml = [
-    'https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz,
+    'https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz',
     'https://epg.erw.cc/e.xml.gz',
     
 ];
