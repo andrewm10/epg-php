@@ -1,16 +1,14 @@
 <?php
 // 程序查询仅限于当天，自定义xml.gz地址  放合适自己的节目源就行，全部往里面加载会卡死。
 $urlxml = [
-    'https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz',
-    'https://epg.erw.cc/e.xml.gz',
-    
+    'https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz',    
 ];
 /* 
 
 仅供参考的xml.gz包地址  宝塔建议4左右小时更新一次即可
 Crow丶：https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz （当天全部节目）
 Crow丶：https://gitee.com/Black_crow/xmlgz/raw/master/cc.xml.gz （当天央卫数不含港澳台）
-
+    'https://epg.erw.cc/e.xml.gz',
 老王：http://epg.51zmt.top:8000/e.xml.gz（当天全部节目）
 老王：http://epg.51zmt.top:8000/cc.xml.gz（央视及各省卫视）
 老王：http://epg.51zmt.top:8000/difang.xml.gz（地方及数字）
