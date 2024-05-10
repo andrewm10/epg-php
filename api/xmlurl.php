@@ -1,8 +1,10 @@
 <?php
 // 程序查询仅限于当天，自定义xml.gz地址  放合适自己的节目源就行，全部往里面加载会卡死。
 $urlxml = [
-    'https://gitee.com/Black_crow/xmlgz/raw/master/e.xml.gz',    
+    'https://diyp.112114.xyz/pp.xml.gz',
+    'http://epg.51zmt.top:8000/cc.xml.gz',    
 ];
+
 /* 
 
 仅供参考的xml.gz包地址  宝塔建议4左右小时更新一次即可
