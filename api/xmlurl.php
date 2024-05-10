@@ -1,7 +1,6 @@
 <?php
 // 程序查询仅限于当天，自定义xml.gz地址  放合适自己的节目源就行，全部往里面加载会卡死。
 $urlxml = [
-    'https://diyp.112114.xyz/pp.xml.gz',
     'http://epg.51zmt.top:8000/cc.xml.gz',    
 ];
 
